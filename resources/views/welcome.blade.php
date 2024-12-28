@@ -157,6 +157,52 @@
         </div>
     </section>
     
+    {{-- Kenapa harus kami --}}
+    <section id="why-us" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">Kenapa Harus Kami?</h2>
+          <p class="text-muted">Alasan mengapa Anda harus memilih layanan kami</p>
+        </div>
+    
+        <div class="row text-center">
+          <!-- Keunggulan 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="{{ asset('images/kecepatan.jpg') }}" alt="Our Team" class="img-fluid rounded shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Kecepatan Internet Terbaik</h5>
+                <p class="card-text">Kami menyediakan koneksi internet cepat dan stabil untuk memenuhi kebutuhan Anda setiap hari.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Keunggulan 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="{{ asset('images/layanan.jpg') }}" alt="Our Team" class="img-fluid rounded shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Layanan Pelanggan 24/7</h5>
+                <p class="card-text">Tim kami siap membantu Anda kapan saja untuk memastikan pengalaman terbaik.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Keunggulan 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="{{ asset('images/biaya.jpg') }}" alt="Our Team" class="img-fluid rounded shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Harga Kompetitif</h5>
+                <p class="card-text">Nikmati layanan premium dengan harga yang terjangkau dan transparan tanpa biaya tersembunyi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
     {{-- Service --}}
    <section id="services" class="py-5">
     <div class="container text-center">
@@ -238,24 +284,24 @@
             <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0 me-3 fs-4 text-primary"></i>
               <div>
-                <h5 class="fw-bold">Address</h5>
-                <p class="mb-0">A108 Adam Street, New York, NY 535022</p>
+                <h5 class="fw-bold">Alamat</h5>
+                <p class="mb-0">Jl. Mangesti Raya, Dusun 2, Mayang, Kec. Gatak, Kabupaten Sukoharjo, Jawa Tengah</p>
               </div>
             </div><!-- End Info Item -->
   
             <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone flex-shrink-0 me-3 fs-4 text-primary"></i>
               <div>
-                <h5 class="fw-bold">Call Us</h5>
-                <p class="mb-0">+1 5589 55488 55</p>
+                <h5 class="fw-bold">Hubungi Kami</h5>
+                <p class="mb-0">0899-1066-262</p>
               </div>
             </div><!-- End Info Item -->
   
             <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-envelope flex-shrink-0 me-3 fs-4 text-primary"></i>
               <div>
-                <h5 class="fw-bold">Email Us</h5>
-                <p class="mb-0">info@example.com</p>
+                <h5 class="fw-bold">Email </h5>
+                <p class="mb-0">info@maxnetplus.id</p>
               </div>
             </div><!-- End Info Item -->
   
@@ -325,29 +371,27 @@
             <!-- Useful Links Section -->
             <div class="col-lg-2 col-md-3 footer-links">
               <h4 class="text-white mb-3">Useful Links</h4>
-              <ul class="list-unstyled text-muted">
+              <ul class="list-unstyled text-light">
                 <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Home</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">About us</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Services</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Layanan</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Hubungi Kami</a></li>
               </ul>
             </div>
-    
             <!-- Our Services Section -->
             <div class="col-lg-2 col-md-3 footer-links">
               <h4 class="text-white mb-3">Our Services</h4>
-              <ul class="list-unstyled text-muted">
-                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Web Design</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Web Development</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Product Management</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Marketing</a></li>
+              <ul class="list-unstyled text-light">
+                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Internet rumah</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Internet Bisnis</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Gaming</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#" class="text-light">Channel TV</a></li>
               </ul>
             </div>
-    
             <!-- Social Links Section -->
-            <div class="col-lg-4 col-md-12">
+            <div class="col-lg-4 col-md-12 ">
               <h4 class="text-white mb-3">Follow Us</h4>
-              <p class="text-muted mb-4">Stay connected with us through social media</p>
+              <p class="text-light mb-2">Stay connected with us through social media</p>
               <div class="social-links d-flex">
                 <a href="#" class="text-light mx-2"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="text-light mx-2"><i class="bi bi-facebook"></i></a>
@@ -358,17 +402,7 @@
     
           </div>
         </div>
-    
-        <!-- Footer Bottom Section -->
-        <div class="container copyright text-center mt-4">
-          <p class="text-muted mb-0">© <span>Copyright</span> <strong class="px-1 sitename">BizLand</strong> <span>All Rights Reserved</span></p>
-          <div class="credits">
-            Designed by <a href="https://bootstrapmade.com/" class="text-muted">BootstrapMade</a> Distributed by <a href="https://themewagon.com" class="text-muted">ThemeWagon</a>
-          </div>
-        </div>
-    
     </footer>
-    
     <!-- Bootstrap Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
